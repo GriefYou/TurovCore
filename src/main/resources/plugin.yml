@@ -1,0 +1,27 @@
+name: TurovCore
+main: turov.main.TurovCore
+version: 0.1
+author: BogdanTurov
+
+commands:
+  gm:
+    description: 'Change gamemode'
+    usage: '§7[§6§lСЕРВЕР§7] §fИспользование: §6/gamemode  §7(0 1 2 3)' 
+    aliases: [gamemode]
+  heal:
+    description: 'Heal'
+    usage: '§7[§6§lСЕРВЕР§7] §fИспользование §6/heal §7(ник)' 
+  feed:
+    description: 'Feed'
+    usage: '§7[§6§lСЕРВЕР§7] §fИспользование §6/feed §7(ник)' 
+  time:
+    description: 'Time'
+    usage: '§7[§6§lСЕРВЕР§7] §fИспользование §6/time §7(day, night)' 
+    aliases: [day,night]    
+  weather:
+    description: 'Weather'
+    usage: '§7[§6§lСЕРВЕР§7] §fИспользование §6/weather §7(clear, storm)'      
+  whois:
+    description: 'Whois'
+    usage: '§7[§6§lСЕРВЕР§7] §fИспользование §6/whois §7(ник)'     
+    aliases: [seen]
